@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     font-family: "Roboto", sans-serif;
 }
@@ -11,6 +14,22 @@ body{
 .main-header{
     width: 85%;
     margin: 0 auto;
+    display: flex;
+}
+.logo{
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+nav{
+    width: 50%;
+}
+.main-header .logo img{
+    width: 40px;
+    height: 40px;
+}
+.navbar{
+    text-align: right;
 }
 .navbar ul{
     display: flex;
@@ -158,6 +177,7 @@ button:hover{
     justify-content: space-between;
     padding: 20px;
     background-color: #F4F4F4;
+    margin-bottom: 80px;
 }
 .support-1{
     width: 30%;
@@ -167,4 +187,128 @@ button:hover{
     padding-top: 5px;
     font-size: 16px;
     color: #7C7778;
+}
+
+/* discount section style  */
+.discount{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FEF6F8;
+    margin-bottom: 80px;
+}
+.main-discount{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.discount-content{
+    width: 50%;
+}
+.discount-content p{
+    line-height: 150%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.discount-content span{
+    color: #d73054;
+}
+.discount-products{
+    width: 50%;
+}
+/* gallary style start  */
+.gallary{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.gallary p{
+    line-height: 150%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card-galary{
+    display: flex;
+}
+.gallary-1{
+    width: 25%;
+    margin: 10px;
+}
+.gallary-1 img{
+    width: 100%;
+}
+.gallary-2{
+    width: 25%;
+    margin: 10px;
+}
+.gallary-2 img{
+    width: 100%;
+}
+.gallary-3{
+    width: 25%;
+    margin: 10px;
+}
+.gallary-3 img{
+    width: 100%;
+}
+.gallary-4{
+    width: 25%;
+    margin: 10px;
+}
+.gallary-4 img{
+    width: 100%;
+}
+/* newslatter section style  */
+.newslatter{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url("/images/Rectangle\ 9.png");
+    margin-bottom: 80px;
+}
+.newslatter h2{
+    color: #272727;
+    font-size: 32px;
+}
+.newslatter p{
+    color: #7C7778;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.newslatter input{
+    width: 50%;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+/* footer section style  */
+footer{
+    background-color: #111010;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.main-footer{
+    width: 50%;
+    margin: 0 auto;
+}
+.main-footer h3{
+    color: #fff;
+    font-size: 32px;
+}
+.main-footer p{
+    color: #E7E7E7;
+    line-height: 180%;
+}
+.main-footer .copy-rights{
+    color: #707070;
+}
+.main-footer h3 span{
+    color: #d73054;
 }
