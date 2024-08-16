@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px){
+    .navbar{
+        display: none;
+    }
+    .hero-main{
+        padding-top: 20px;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .about{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .about h1{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .about p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .img-box img{
+        width: 80%;
+    }
+    .card-feature{
+        flex-direction: column;
+    }
+    .card-1{
+        width: 75%;
+        margin-bottom: 10px;
+    }
+    .card-1 img{
+        width: 80%;
+    }
+    .card-2{
+        width: 75%;
+        margin-bottom: 10px;
+    }
+    .card-2 img{
+        width: 100%;
+    }
+    .card-3{
+        width: 75%;
+    }
+    .card-3 img{
+        width: 80%;
+    }
+}
